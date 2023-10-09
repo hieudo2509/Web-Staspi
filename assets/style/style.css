@@ -281,22 +281,107 @@ img {
   padding: 20px;
 }
 
-#partner h2{
+#partner h2 {
   text-align: center;
   font-size: 40px;
   padding: 20px 0;
 }
 
-#partner img{
+#partner img {
   margin-bottom: 60px;
   box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.125);
 }
 
-#product{
+#product {
   background-color: #fa7716;
+  height: ;
 }
 
-#product h2{
+#product h2, p{
+  color: black;
   text-align: center;
-  
 }
+
+#product .product-title {
+  font-size: 20px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+#product .product-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 30px 0px;
+}
+
+#product .product-box .product-box-top {
+  height: 255px;
+}
+
+#product .product-box .product-box-bottom {
+  font-size: 15px;
+  padding: 10px;
+}
+
+#testimonials .testimonials-title{
+  font-size: 20px;
+  padding: 20px;
+}
+
+#testimonials .testimonials-box{
+  background-color: #f3f0f0;
+  height: 370px;
+}
+
+#testimonials .testimonials-box .testimonials-box-top{
+  display: flex;
+  align-items: center;
+}
+
+#testimonials .testimonials-box .testimonials-box-top .testimonials-box-top-text{
+  padding-left:20px;
+  font-size: 15px;
+}
+
+#testimonials .testimonials-box  p{
+  text-align: left;
+  line-height: 30px;
+}
+
+#testimonials .testimonials-box .testimonials-box-bottom{
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#email {
+  text-align: center;
+  background-color: #fa7716;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+#email .email-title {
+  color: #f3f0f0;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+#email input{
+  width: 70%;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 10px 10px;
+    padding-left: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#email button{
+  color:#fa7716;
+  background-color:#f3f0f0;
+  padding: 10px 30px;
+  border-color: transparent;
+  border-radius: 4px;
+}
+
