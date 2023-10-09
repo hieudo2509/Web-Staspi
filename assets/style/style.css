@@ -151,42 +151,40 @@ img {
   background-color: #fa7716;
   color: white;
 }
-
 #services {
-  background-color: aliceblue;
-  padding: 50px 0px;
   margin: 30px 0px;
 }
-
-#services .services-top {
-  display: flex;
-  margin: 0 auto 4rem;
-  font-size: 2rem;
-}
-
-#services .services-bottom .service-img {
-  width: 40%;
-  display: flex;
-  margin: 0 auto;
-}
-
-#services .services-bottom .services-test {
+#services .services-title {
   text-align: center;
-  font-size: 16px;
+  font-size: 25px;
 }
 
-#services .services-bottom .services-test h2 {
-  margin: 20px 0 50px;
+#services .services-box {
+  flex: 1 1 24rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  align-self: normal;
+  align-items: center;
+  min-height: 350px;
+  background-color: red;
 }
 
-#services .services-bottom .services-test p {
-  line-height: 20px;
-  margin-bottom: 20px;
+#services .services-box img {
+  max-width: 100px;
 }
 
-#services .services-bottom .services-test .services-button {
-  background-color: #fa7716;
-  color: #ffffff;
+#services .services-box h2 {
+  text-align: center;
+  min-height: 55px;
+  word-break: break-all;
+}
+
+#services .services-box .btn-services {
+  margin-top: auto;
 }
 
 #process {
@@ -250,4 +248,55 @@ img {
   text-align: center;
   font-size: 20px;
   padding: 20px 0px;
+}
+
+#data {
+  background-image: url(/assets/img/background-home5.jpg);
+  display: flex;
+  flex: 1;
+}
+#data .data-content {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 25px 0px;
+}
+#data .data-box {
+  margin: 25px 0px;
+}
+
+#data .data-box .data-item {
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid;
+  padding: 30px;
+}
+
+#data .data-box .data-box-top-right {
+  margin-bottom: 20px;
+}
+
+#data .data-box .change {
+  padding: 20px;
+}
+
+#partner h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+#partner img{
+  margin-bottom: 60px;
+  box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.125);
+}
+
+#product{
+  background-color: #fa7716;
+}
+
+#product h2{
+  text-align: center;
+  
 }
